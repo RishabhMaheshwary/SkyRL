@@ -84,6 +84,13 @@ export WANDB_API_KEY=<your wandb api key>
 bash examples/gsm8k/run_gsm8k.sh
 ```
 
+To try LLM-vs-LLM games using the new TextArena environment:
+
+```bash
+uv run examples/textarena/textarena_dataset.py --output_dir $HOME/data/textarena
+bash examples/textarena/run_textarena.sh
+```
+
 For detailed installation instructions, as well as more examples, please refer to our [documentation](https://skyrl.readthedocs.io/en/latest/).
 
 ## Training on a new task or environment
