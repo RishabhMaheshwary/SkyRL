@@ -26,3 +26,8 @@ register(
     id="searchcode",
     entry_point="skyrl_gym.envs.searchcode.env:SearchCodeEnv",
 )
+
+register(
+    id="textarena",
+    entry_point="skyrl_gym.envs.textarena.env:TextArenaEnv",
+)

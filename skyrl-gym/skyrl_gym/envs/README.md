@@ -1,7 +1,11 @@
 # Supported Environments 
 
-## Basic Environments 
+## Basic Environments
 Search, SQL, Math, + Simple Code (LCB)?
+
+## Game Environments
+- **TextArena**: Pair an LLM with an opponent model to play games such as
+  CodeNames, ColonelBlotto and the Three Player Iterated Prisoner's Dilemma.
 
 ## Multi-Tool Environment 
 The model decides which tool to call in each step, showcase Search + Python Code example scripts 
